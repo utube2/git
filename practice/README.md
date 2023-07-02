@@ -1,0 +1,1 @@
+This is a file sent to remote server via terraform file provisioner

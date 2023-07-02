@@ -166,6 +166,12 @@ resource "aws_instance" "Force-EC2" {
   tags = {
     Name = var.name[5]
   }
+ provisioner "file" {
+    source      = "README.md"
+    destination = "/tmp/README.md"
+  }
+  
+  
 }
 
 
