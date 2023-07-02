@@ -1,0 +1,3 @@
+practice/.terraform.lock.hcl
+practice/.terraform/
+practice/terraform.tfstate
